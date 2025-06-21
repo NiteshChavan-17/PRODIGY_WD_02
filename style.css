@@ -49,3 +49,15 @@ button{
 h1{
     color:black;
 }
+
+#lap{
+    background-color: rgb(106,90,205);
+}
+
+#laplist{
+    margin-top: 20px;
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
