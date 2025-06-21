@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body{
+    background-color:rgb(162, 230, 224);
+    color:#ffffff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    flex-direction: column;
+}
+
+.stopwatch{
+    background-color: rgb(20, 112, 188);
+    font-size:50px;
+    padding:20px 24px;
+    font-weight:600;
+    border-radius:10px;
+}
+
+button{
+    height:40px;
+    width:70px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top:20px;
+    margin-right: 4px;
+    border:none;
+    border-radius: 6px;
+}
+
+#start{
+    background-color: rgb(27, 198, 124);
+}
+
+#stop{
+    background-color: rgb(255,0,0);
+}
+
+#reset{
+    background-color: rgb(214, 169, 20);
+}
